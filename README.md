@@ -135,10 +135,8 @@ Thus, the program was implemented and executed successfully, and the required ou
 int main() {
     int number, i;
 
-    printf("Enter a number: ");
+    printf("Enter the number to display its multiplication table: ");
     scanf("%d", &number);
-
-    printf("Multiplication Table of %d:\n", number);
 
     for (i = 1; i <= 10; i++) {
         printf("%d x %d = %d\n", number, i, number * i);
@@ -198,7 +196,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 int main() {
     int n, i = 2, f = 0;
 
-    printf("Enter a number: ");
+    printf("Enter a number to check if it is prime: ");
     scanf("%d", &n);
 
     if (n <= 1) {
@@ -276,7 +274,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 int main() {
     int n, i, j, k;
 
-    printf("Enter the value of n: ");
+    printf("Enter the value of n for the pattern: ");
     scanf("%d", &n);
 
     for (i = 1; i <= n; i++) {
@@ -363,7 +361,7 @@ int main() {
 int main() {
     int i, j, n;
 
-    printf("Enter the maximum number: ");
+    printf("Enter the maximum number for the pattern: ");
     scanf("%d", &n);
 
     printf("0\n");
